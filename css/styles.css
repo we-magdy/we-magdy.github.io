@@ -6,6 +6,33 @@ Author URL: http://webthemez.com
 /*************************
 *******Typography******
 **************************/
+.lb-image {
+  max-height: calc(100vh - 150px); /* Adjust image height to leave space for caption */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.lb-data {
+  display: block;
+  width: 100%; /* Ensure the caption takes full width under the image */
+  text-align: center; /* Center-align the caption text */
+  margin-top: 10px; /* Add some space between the image and the caption */
+}
+
+.lightbox {
+  display: flex;
+  flex-direction: column; /* Stack the image and caption vertically */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.lightboxOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 body {
   padding-top: 100px;
   background: #fff;
