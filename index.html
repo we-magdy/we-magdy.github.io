@@ -789,5 +789,13 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/custom-scripts.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto({
+                theme: 'light_rounded', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+                social_tools: false
+            });
+        });
+    </script>
 </body>
 </html>
