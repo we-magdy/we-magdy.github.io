@@ -6,6 +6,8 @@ Author URL: http://webthemez.com
 /*************************
 *******Typography******
 **************************/
+/* Custom style to vertically center Lightbox */
+/* Custom style to vertically center Lightbox */
 .lb-image {
   max-height: calc(100vh - 150px); /* Adjust image height to leave space for caption */
   margin-top: auto;
@@ -408,7 +410,7 @@ color:#000;
 #features .media.service-box:first-child {
   margin-top: 80px;
 }
-#services, #features {
+#services, #features, #project-gallery1, #project-gallery2 {
   padding: 100px 0 75px;
 }
 .media.service-box {
